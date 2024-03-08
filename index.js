@@ -21,12 +21,12 @@ console.log(empty);
 // undefined :
 let e;
 console.log(e);
-// // bigint:
-// const bigIntValue : bigint = 1234567890123456789012345678901234567890n;
-// console.log(bigIntValue);
-// // symbol :
-// const mySym = symbol("hello");
-// console.log(mySym);
+// bigint:
+const bigIntValue = 1234567890123456789012345678901234567890n;
+console.log(bigIntValue);
+// symbol :
+const mySym = Symbol("hello");
+console.log(mySym);
 ////   CASE TYPE   ////
 // there are three types of cases :
 // camelCase :

@@ -35,7 +35,7 @@ const bigIntValue : bigint = 1234567890123456789012345678901234567890n;
 console.log(bigIntValue);
 
 // symbol :
-const mySym = symbol("hello");
+const mySym = Symbol("hello");
 console.log(mySym);
 
 ////   CASE TYPE   ////
